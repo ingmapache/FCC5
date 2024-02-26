@@ -113,17 +113,29 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-transform: uppercase;
 }
+
+.sp-container {
+    height: 350px;
+    width: 520px;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    gap: 30px;
+    align-items: center;
+ }
+
  .skill{
     height: 160px;
     width: 120pxpx;
     display: flex;
     flex-direction: column;
+    place-items: center;
  }
  
  .logo {
@@ -139,3 +151,64 @@ h2 {
     text-align: center;
     margin: auto;
  }
+
+ /* Projects Section */
+.sectionp {
+    height: 720px;
+    width: 100%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-container {
+    height: 480px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.project-tile {
+    height: 216px;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    
+}
+
+.p-bg {
+    width: 384px;
+    border: 2px solid rgb(255, 0, 77);
+    border-radius: 13px;
+}
+
+/* Contact Section */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.neBox {
+    width: 200px;
+}
+
+.inText {
+    display: block;
+    width: 400px;
+    height: 150px;
+    margin: 10px 0;
+    right: 0;
+    border: 0;
+    padding: 0;
+}
