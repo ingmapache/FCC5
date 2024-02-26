@@ -1,0 +1,141 @@
+html {
+    background-color: rgb(17, 24, 44);
+    scroll-behavior: smooth;
+    color: white;
+}
+
+html * {
+    box-sizing: border-box  ;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    scrollbar-gutter: stable;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Section */
+#navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.7px);
+    -webkit-backdrop-filter: blur(8.7px);
+    position: fixed;
+    z-index: 1;
+    align-content: center;
+    justify-content:   space-between;
+    top: 0;
+    left: 0;
+    color: white
+}
+
+#name-and-title {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    position: relative;
+    left: 5vw;
+}
+
+#name-and-title p{
+    margin: auto 0;
+}
+
+#navlinks {
+    position: relative  ;
+    right: 5vw;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-content: center;
+}
+
+#navlinks a{
+    margin: auto 0;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.8rem;
+}
+
+main {
+    height: 100%;
+    width: 95vw;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+}
+.section {
+    height: 600px;
+    width: 100%;
+}
+
+/* Welcome Section */
+
+#welcome-section { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+#bigText {
+    color: rgb(126, 37, 83);
+    margin: 0;
+    font-size: 3rem;
+}
+
+#bigTextSpan{
+    font-size: 2rem;
+    color: white;
+}
+
+#bigName {
+    font-size: 8rem;
+    color: rgb(255, 0, 77);
+}
+
+#aboutText {
+    font-size: 1.5rem;
+}
+
+/* Skills Section */
+#skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+ .skill{
+    height: 160px;
+    width: 120pxpx;
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .logo {
+    object-fit: cover;
+    height:130px;
+    width:150px;
+    margin: 0;
+    border: 2px solid rgb(255, 0, 77);
+    border-radius: 13px;
+ }
+
+.spCaption {
+    text-align: center;
+    margin: auto;
+ }
